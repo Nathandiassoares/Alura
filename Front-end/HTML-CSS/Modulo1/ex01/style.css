@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: white;
+    
+}
+.titulo-principal {
+    text-align: left;
+    padding: 20px;
+}
+#banner {
+    width: 100%;
+}
+main {
+    margin: 0px;
+    background-color: lightgrey;
+}
+
+h1 {
+    padding-top: 15px;
+    text-align: center;
+}
+
+p {
+    text-indent:10px;
+    padding-top: 14px;
+    text-align: center;
+}
+
+#missao {
+    color: red;
+}
+#beneficios {
+    background-color: white;
+}
+h2 {
+    padding: 10px;
+    margin-left: 10px;
+}
+ul {
+    display: inline-block;
+    vertical-align:top;
+    width:20%;
+    margin-right: 15%;
+   
+}
+
+.item {
+    margin-left: 50px;
+    padding: 5px;
+    font-style: italic;
+}
+
+.imgbeneficios{
+    width: 50%;
+   
+}
+   
