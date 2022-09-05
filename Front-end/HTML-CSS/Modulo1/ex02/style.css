@@ -17,10 +17,6 @@ header {
     
 }
 
-.cabeçalho-logo {
-
-}
-
 .cabeçalho-menu {
     flex-direction:row;
     
@@ -28,8 +24,9 @@ header {
 
 .cabeçalho-menu li {
     display:inline;
-    margin-left: 10px;
+    margin-left: 20px;
 }
+
 
 .cabeçalho-menu a {
     text-decoration: none;
@@ -38,20 +35,57 @@ header {
     font-size: 1.7em;
 }
 
+.cabeçalho-menu a:hover {
+    color: #CC972D;
+    text-decoration: underline;
+}
+
+main {
+   padding-top: 50px;
+   padding-bottom: 50px;
+}
+
 main .produtos {
-    width: 94vw;
+    width: 100vw;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    
 }
 
 .produtos li {
     list-style-type: none;
     text-align:center;
     margin:20px;
+    padding: 10px;
+    width:300px;
+    height:400px;
+    border: 2px solid ;
+    border-radius: 15px;
+}
+.produtos li:hover  {
+    border-color: #CC972D;
+}
+.produtos li:active {
+    border-color: #055526;
+}
+.produtos li:hover h2 {
+    font-size: 1.9em;
 }
 
 .produtos-preço {
+    margin-top: 10px;
     font-size: 1.5em;
     font-weight: bold;
+}
+
+footer {
+    padding-top: 10px;
+    text-align: center;
+    background-image: url(imagens/bg.jpg);
+}
+
+.roda-pe {
+    color: white;
+    padding: 10px;
 }
