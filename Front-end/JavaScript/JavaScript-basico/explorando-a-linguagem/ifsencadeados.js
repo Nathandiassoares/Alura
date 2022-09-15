@@ -21,14 +21,17 @@ if (diaDaSemana == 2){
     console.log(`${listaDeAnimesTerça}`) 
 }
 
-let animeDisponivel = 'naruto'
+let animeDisponivel = 'Naruto'
 let contador = 0
+ 
 
-while (contador <3) {
-    if (listaDeAnimesSegunda[contador] == animeDisponivel){
-         console.log('ok')
-    }else{
-    console.log('no')
-}
+while (contador <=3) {
+    if(listaDeAnimesTerça[contador] == animeDisponivel){
+        console.log(`${animeDisponivel} Esta disponivel para assistir `)
+        break
+    }
+        contador ++
    
-} 
+}
+
+
