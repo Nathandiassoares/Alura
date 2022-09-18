@@ -47,18 +47,13 @@ main {
     justify-content:flex-start;
     margin-left:40px;
     font-size: 1.5em;
-    
 }
 
-label {
-   display: block;
-}
-
-input {
-    width: 50vw;
-    padding: 10px;
+.input-padrao, label, .texto-caixa {
+    display:block;
+    width:50vw;
+    padding:10px;
     margin:5px;
-    display: block;
 }
 
 

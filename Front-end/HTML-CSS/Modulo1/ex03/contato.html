@@ -22,29 +22,29 @@
         <form action="contato.php" method="get">
             
             <label for="nomeSobrenome">Nome Sobrenome</label>
-            <input type="text" name="nomeSobrenome" id="nomeSobrenome">
+            <input type="text" name="nomeSobrenome" id="nomeSobrenome" class="input-padrao">
             
             <label for="email">E-mail</label>
-            <input type="email" name="email" id="email">
+            <input type="email" name="email" id="email" class="input-padrao">
             
             <label for="tel">Telefone</label>
-            <input type="number" name="tel" id="tel">
+            <input type="number" name="tel" id="tel" class="input-padrao">
             <section>
                 <label for="comentario">Mensagem</label>
-                <textarea name="comentario" id="comentario" cols="30" rows="10"></textarea>
+                <textarea name="comentario" id="comentario" cols="30" rows="10" class="texto-caixa"></textarea>
                 
                 <p>Como prefere nosso contato?</p>
                 
-                <label for="contato-email">E-mail</label>
-                <input type="radio" name="contato" id="contato-email">
+                <label for="contato-email"><input type="radio" name="contato" id="contato-email"> E-mail</label>
+                
 
-                <label for="contato-telfone">Telefone</label>
-                <input type="radio" name="contato" id="contato-telfone">
+                <label for="contato-telfone"><input type="radio" name="contato" id="contato-telfone"> Telefone</label>
+                
 
-                <label for="contato-whatsapp">WhatSapp</label>
-                <input type="radio" name="contato" id="contato-whatsapp">
+                <label for="contato-whatsapp"><input type="radio" name="contato" id="contato-whatsapp"> WhatSapp</label>
+                
 
-                <label><input type="checkbox" name="novidades" id="novidades">Gostaria de receber nossas novidade por e-mail?</label>
+                <label><input type="checkbox" name="novidades" id="novidades"> Gostaria de receber nossas novidade por e-mail?</label>
 
             </section>
 
