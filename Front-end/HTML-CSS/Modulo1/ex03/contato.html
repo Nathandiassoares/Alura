@@ -9,7 +9,7 @@
 </head>
 <body>
     <header>
-        <img class="cabeçalho-logo" src="imagens/logo.png" alt="logo">
+        <img class="cabeçalho-logo" src="imagens/logo.png" alt="Logo-da-barbearia-alura">
         <nav class="cabeçalho-menu">
             <ul>
                 <li><a href="../ex01/index.html">Inicio</a></li>
@@ -22,13 +22,13 @@
         <form action="contato.php" method="get">
             
             <label for="nomeSobrenome">Nome Sobrenome</label>
-            <input type="text" name="nomeSobrenome" id="nomeSobrenome" class="input-padrao">
+            <input type="text" name="nomeSobrenome" id="nomeSobrenome" class="input-padrao" required placeholder="Nome completo">
             
             <label for="email">E-mail</label>
-            <input type="email" name="email" id="email" class="input-padrao">
+            <input type="email" name="email" id="email" class="input-padrao" required placeholder="nome@dominio.com">
             
             <label for="tel">Telefone</label>
-            <input type="number" name="tel" id="tel" class="input-padrao">
+            <input type="tel" name="tel" id="tel" class="input-padrao" required placeholder="(XX) X XXXX-XXXX">
             <section>
                 <label for="comentario">Mensagem</label>
                 <textarea name="comentario" id="comentario" cols="30" rows="10" class="texto-caixa"></textarea>
@@ -41,17 +41,46 @@
                 <label for="contato-telfone"><input type="radio" name="contato" id="contato-telfone"> Telefone</label>
                 
 
-                <label for="contato-whatsapp"><input type="radio" name="contato" id="contato-whatsapp"> WhatSapp</label>
+                <label for="contato-whatsapp"><input type="radio" name="contato" id="contato-whatsapp" checked> WhatSapp</label>
                 
 
-                <label><input type="checkbox" name="novidades" id="novidades"> Gostaria de receber nossas novidade por e-mail?</label>
+                <label><input type="checkbox" name="novidades" id="novidades" checked> Gostaria de receber nossas novidade por e-mail?</label>
 
             </section>
 
-            <input type="submit" value="Enviar">
+            <section>
+                <p>Qual horario gostaria de ser atendido?</p>
+                <select name="horario" id="horario">
+                    <option value="">Manhã</option>
+                    <option value="">Tarde</option>
+                    <option value="">Noite</option>
+                </select>
+            </section>
 
-        </form>
+            <input type="submit" value="Enviar" class="enviar"> <br>
+            <table>
+                <thead>
+                    <th>Dia</th>
+                    <th>Horário</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Segunda</td>
+                        <td>8h ás 17h</td>
+                    </tr>
+                    <tr>
+                        <td>Quarta</td>
+                        <td>8h ás 17h</td>
+                    </tr>
+                    <tr>
+                        <td>Sexta</td>
+                        <td>8h ás 17h</td>
+                    </tr>
+        
+                </tbody>
+            </table>
 
+      
     </main>
     <footer>
         <img src="imagens/logo-branco.png" alt="logo-da-babearia-(barba-branca)">

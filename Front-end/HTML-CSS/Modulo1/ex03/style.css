@@ -7,6 +7,10 @@
     box-sizing: border-box;
 }
 
+body {
+    width: 100vw;
+}
+
 header {
     background-color: gray;
     display: flex;
@@ -41,7 +45,7 @@ header {
 }
 
 main {
-    width:96vw;
+    width:100vw;
     margin: 20px;
     display:flex;
     justify-content:flex-start;
@@ -56,15 +60,43 @@ main {
     margin:5px;
 }
 
+#horario{
+    width: 100px;
+    padding: 5px;
+}
 
+.enviar {
+    width: 40vw;
+    padding: 10px;
+    margin: 5px;
+    font-size: 1em;
+    font-weight: bolder;
+    border:none;
+    color: white;
+    box-shadow: 2px 2px 5px black;
+    background-color: orange;
+    cursor: pointer;
+    transition: 1s;
+}
 
-    
+.enviar:hover {
+    background-color: darkorange;
+    transform: scale(1.1);
+}
+table {
+    margin-top: 15px;
+    border-collapse: collapse;
+}
+th {
+    background-color: darkgrey;
+    color: white;
+}
 
-
-
-
-
-
+td,th {
+    margin: 0px;
+    border: 1px solid black;
+    padding: 8px 10px;
+}
 
 
 footer {
