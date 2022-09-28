@@ -18,25 +18,40 @@ class contaCorrente {
         }
         this._saldo += valor 
     }
+
+    transferir (valor, conta) {  //valor e conta são demostrativo não são variaveis
+        const valorSacado = this.sacar(valor) // valor e demotrativo
+        conta.depositar(valorSacado) // conta e demotrativo
+    }//adcionamos o que queremos usar logo abaixo como sacando criando uma variavel para retirar o valor da conta que ira tranferir e logo abaixo depositar na conta que recebera o valor
+    
 }
 
-const cliente1 = new Cliente()
-cliente1.nome    = 'Nathan'
-cliente1.cpf     = 10000000001
+const cliente01 = new Cliente()  //Adcionando novo cliente
+cliente01.nome = 'Nathan'
+cliente01.cpf = 333111
 
-const contaCorrenteNathan = new contaCorrente()
-contaCorrenteNathan.agencia = 1001
 
-contaCorrenteNathan.depositar(1000)
-console.log(`Saldo ${contaCorrenteNathan._saldo}`)
-
-const valorSacado = contaCorrenteNathan.sacar(100)
-console.log(`Saldo ${contaCorrenteNathan._saldo}`)
-console.log(`Valor sacado ${valorSacado}`)
+const cliente02 = new Cliente() //Adcionando novo cliente
+cliente02.nome = 'Aline'
+cliente02.cpf = 333222
 
 
 
+const contaCorrenteAline = new contaCorrente()  //Nova conta corrente
+contaCorrenteAline.cliente = cliente01
+contaCorrenteAline.agencia = 101 
 
+const contaCorrenteNathan = new contaCorrente() //Nova conta corrente
+contaCorrenteNathan.cliente = cliente02
+contaCorrenteNathan.agencia = 102
+
+
+
+contaCorrenteAline.depositar(300)
+
+console.log(contaCorrenteAline)
+
+contaCorrenteAline.transferir(300,contaCorrenteNathan)
 
 
 
