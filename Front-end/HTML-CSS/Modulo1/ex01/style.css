@@ -95,6 +95,7 @@ main {
 }
 
 h1 {
+    margin:2em;
     font-weight: bold;
     text-align: center;
     font-size:1.6em;
@@ -125,8 +126,39 @@ h2 {
     text-align: center;
 }
 
+.mapa {
+    padding:10px;
+    margin: 2em 0;
+}
+
+.mapa > p {
+    text-align: center;
+}
+.beneficios {
+    padding: 3em 0;
+    width:640px;
+    margin: 0 auto;
+
+}
+.lista-beneficios {
+    display: inline-block;
+    vertical-align:top;
+    line-height: 2em;
+}
+
+.itens:first-child {
+    font-weight: bold;
+}
+
+
 .imagem-beneficios {
-    width: 50vw;
+    width: 30vw;
+}
+
+.video {
+    width:560px;
+    height:315px;
+    margin:2em auto;
 }
 
 footer {
