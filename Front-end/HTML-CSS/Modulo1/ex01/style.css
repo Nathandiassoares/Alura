@@ -85,13 +85,17 @@ header {
 }
 
 main {
-    position: relative;
-    width:900px;
-    margin: auto;
+    margin-bottom: -32px;
+    background-image: linear-gradient(to bottom,white, rgb(112, 112, 112));
 }
 
 .banner {
     width:100%;
+}
+
+.principal {
+    width:900px;
+    margin: auto;
 }
 
 h1 {
@@ -131,6 +135,11 @@ h2 {
     margin: 2em 0;
 }
 
+.mapa-conteudo {
+    width:900px;
+    margin: auto;
+}
+
 .mapa > p {
     text-align: center;
 }
@@ -150,19 +159,28 @@ h2 {
     font-weight: bold;
 }
 
+.itens:before {
+    content: "★ ";
+}
 
 .imagem-beneficios {
-    width: 30vw;
+    width: 50%;
+    box-shadow: 10px 10px 10px black;
+}
+
+.imagem-beneficios:hover {
+    transition: 300ms;
+    opacity: 0.3;
 }
 
 .video {
     width:560px;
     height:315px;
     margin:2em auto;
+    padding: 40px;
 }
 
 footer {
-    padding-top: 10px;
     text-align: center;
     background-image: url(imagens/bg.jpg);
 }
@@ -171,3 +189,4 @@ footer {
     color: white;
     padding: 10px;
 }
+
