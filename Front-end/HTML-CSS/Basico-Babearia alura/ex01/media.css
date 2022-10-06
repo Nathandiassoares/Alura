@@ -1,0 +1,12 @@
+@media screen and (max-width:520px) {
+    nav {
+        text-align:center;
+    }
+
+    .mapa-conteudo , .video , .mapa , .beneficios, .principal {
+        width: auto;
+    }
+    .lista-beneficios ,.imagem-beneficios {
+        width:100%; 
+    }
+}
