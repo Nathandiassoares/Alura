@@ -136,6 +136,7 @@ main {
 }
 
 .producao {
+    width: 20%;
     font-weight: bold;
     margin: 10px;
     margin-top: 1em;
@@ -214,18 +215,15 @@ main {
     flex-basis: 35%;
     margin: 10px 0 0;
 }
-.alterar {
-    margin: 2px;
-    width: 200px;
-}
 
-.botoes {
-   position: relative;
-   right: 5%;
-   bottom: 10%;
-   display: flex;
+.btn-cor-producao{
+    position:absolute;
+    width: 80vw;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    
 }
-
 @media screen and (max-width: 1600px) {
     body { 
         font-size: 14px;
