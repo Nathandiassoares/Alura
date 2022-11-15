@@ -1,0 +1,8 @@
+.receita {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    width: calc(25% - 20px);
+}

@@ -1,0 +1,9 @@
+.cabecalho__logo {
+    margin-left:34px;
+}
+
+@media screen and (min-width:0px)and (max-width:768px) {
+    .cabecalho__logo {
+       display: none;
+    }
+}
