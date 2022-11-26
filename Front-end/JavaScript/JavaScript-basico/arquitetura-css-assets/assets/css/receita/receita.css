@@ -2,7 +2,14 @@
     background-color: whitesmoke;
     display: flex;
     flex-direction: column;
-    margin-bottom: 20px;
-    margin-right: 20px;
-    width: calc(25% - 20px);
+    width:30vw;
+    margin:5px;
+}
+
+@media screen and (min-width:0px)and (max-width:768px) {
+    .receita {
+        display: flex;
+       flex-direction: row; 
+       width: 100vw;
+    }
 }

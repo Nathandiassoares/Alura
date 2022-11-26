@@ -2,3 +2,9 @@
     font-size: 1.4em;
     color: rgb(37, 37, 37);
 }
+
+@media screen and (min-width:0px)and (max-width:768px) {
+    .sobre__descricao {
+       font-size: 1em;
+    }
+}

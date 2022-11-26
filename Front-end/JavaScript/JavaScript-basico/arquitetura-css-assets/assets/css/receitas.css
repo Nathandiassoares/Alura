@@ -2,5 +2,7 @@
     background-color: rgb(194, 192, 192);
     display:flex;
     flex-wrap: wrap;
-    padding: 20px 0 0 20px;
+    padding: 20px;
+    margin:20px;
+    justify-content: center;
 }
